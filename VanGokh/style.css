@@ -1,0 +1,60 @@
+
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: beige;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  display: block;
+}
+.feat {
+  width: 100%;
+  display :flex;
+  justify-content :space-around;
+  flex-wrap: wrap;
+}
+
+.painting {
+  margin :30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius :60px;
+  cursor: pointer;
+  box-shadow :.bleu-de-france-text 
+  transition :0.4s;
+}
+.card-image {
+  width: inherit;
+  height : inherit;
+
+}
+.card-image img {
+  width: inherit;
+  height : inherit;
+  border-radius :40px;
+  object-fit: cover;
+  padding: top -80px;
+}
+.h2 {
+  color : white;
+}
+
+
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
