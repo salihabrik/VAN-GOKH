@@ -76,7 +76,7 @@ h2 {
   text-align: center;
 }
 p {
-  color : black;
+  color: black;
   text-align: center;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
@@ -85,12 +85,12 @@ p {
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 20px;
-
-  
-  
   text-shadow: 0 0 10px rgba(0,0,0,0.5);
   transition:0.4s;
-
+  -webkit-transition:0.4s;
+  -moz-transition:0.4s;
+  -ms-transition:0.4s;
+  -o-transition:0.4s;
 }
 .painting:hover {
   transform: scale(0.7,0.7);
@@ -101,16 +101,17 @@ p {
   -o-transform: scale(0.7,0.7);
 }
 
-.landing {
-  background-image: url();
+.landing1 {
+  background-image: url(https://i.pinimg.com/736x/21/4f/bc/214fbc0125b9ffa7ea846cb823cce6a8.jpg);
+  background-size: cover;
   display:flex-column;
   flex-wrap:flex;
   background-size:contain;
   height: calc(100vh - 64px);
-  position:sticky
+  position: relative;
    
 }
-.landing .intro-text {
+.landing1 .intro-text {
   position: absolute;
   left: 50%;
   top: 50%;
