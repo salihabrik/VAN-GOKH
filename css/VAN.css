@@ -270,6 +270,7 @@
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
     background-color: var(--section-background);
+    width: 40% !important;
   }
   .portfolio .portfolio-content {
     display: grid;

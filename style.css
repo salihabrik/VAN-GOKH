@@ -50,11 +50,13 @@ body {
 }
 .card-image {
   width: inherit;
-  height : inherit;
+  height: inherit;
   border-radius:40px;
   overflow: hidden;
   -webkit-border-radius:40px;
-
+  -moz-border-radius:40px;
+  -ms-border-radius:40px;
+  -o-border-radius:40px;
 }
 .card-image img {
   width: inherit;
