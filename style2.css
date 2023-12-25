@@ -2,17 +2,15 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url(https://images.unsplash.com/photo-1703221462001-20226889b131?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(m.jpg);
     
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
   
   .container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 50px 50px 50px 50px;
+    
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -54,14 +52,18 @@ body, html {
     padding: 10px;
     border: 0;
     border-radius: 5px;
-    background: #007bff;
+    background: rgba(9, 99, 99,9);
     color: #fff;
     cursor: pointer;
     transition: background 0.3s;
-  }
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -ms-transition: background 0.3s;
+    -o-transition: background 0.3s;
+}
   
   button:hover {
-    background: #0056b3;
+    background: rgba(9, 99, 89, 0.5);
   }
   footer {
     background-color: #333;
