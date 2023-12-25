@@ -1,39 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VAN GOKH</title>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/VAN.css" />
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Van Gogh Gallery</title>
   <link rel="stylesheet" href="style.css">
-  <title>Login Form</title>
+  <link rel="stylesheet" href="./css/VAN.css" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <!-- Start Header -->
 </head>
-<body>
-  <div class="login-container">
-    <form class="login-form">
-      <h2>Login Here</h2>
-      <div class="input-group">
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username">
+
+
+    <div class="header">
+      <div class="container">
+        <img decoding="async" class="logo" src="images/logo.png" alt="" />
+        <div class="links">
+          <span class="icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <img decoding="async" class="logo" src="images/logo.png" alt="van gogh" width="100px">
       </div>
-      <div class="input-group">
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password">
+
+    </div>
+    <!-- End Header -->
+    <!-- Start Landing Section -->
+    <div class="landing">
+      <div class="intro-text">
+        <h1>Vincent van Gogh</h1>
+        <p>Artist of the Sunflowers and Starry Night</p>
       </div>
-      <button type="submit">Login</button>
-      <div class="signup-link">
-        <p>Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+    <!-- End Landing Section -->
+    <!-- Start Features -->
+    <div class="features">
+      <div class="container">
+        <div class="feat">
+          <i class="fas fa-magic fa-3x"></i>
+          <h3>Tell Us Your Idea</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
+        </div>
+        <div class="feat">
+          <i class="far fa-gem fa-3x"></i>
+          <h3>We Will Do All The Work</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
+        </div>
+        <div class="feat">
+          <i class="fas fa-globe-asia fa-3x"></i>
+          <h3>Your Product is Worldwide</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
+        </div>
+
+    <div class="feat">
+      <div class="painting">
+        <h2>Starry Night</h2>
+        <div class="card-image">
+        <img src="https://i.pinimg.com/564x/b4/72/1e/b4721eaa5db8619b176de509097f639a.jpg" alt="Starry Night by Vincent van Gogh" >
+        <p>
+          Description: Add detailed description of the painting here.
+        </p>
       </div>
-      <div class="checkbox">
-        <input type="checkbox" id="terms">
-        <label for="terms">Agree to the terms & conditions</label>
+    </div>
+    <!-- End Features -->
+    <!-- Start Services -->
+    <div class="services" id="services">
+      <div class="container">
+        <h2 class="special-heading">Services</h2>
+        <p>Don't be busy, be productive</p>
+        <div class="services-content">
+          <div class="col">
+            <!-- Start Service -->
+            <div class="srv">
+              <i class="fas fa-palette fa-2x"></i>
+              <div class="text">
+                <h3>Graphic Design</h3>
+                <p>
+                  Graphic design is the process of visual communication and problem-solving using one or more of
+                  typography, photography and illustration.
+                </p>
+              </div>
+            </div>
+            <div class="srv">
+              <i class="fab fa-sketch fa-2x"></i>
+              <div class="text">
+                <h3>UI & UX</h3>
+                <p>
+                  Process of enhancing user satisfaction with a product by improving the usability, accessibility, and
+                  pleasure provided in the interaction.
+                </p>
+              </div>
+            </div>
+            <!-- End Service -->
+          </div>
+          <div class="col">
+            <!-- Start Services -->
+            <div class="srv">
+              <i class="fas fa-vector-square fa-2x"></i>
+              <div class="text">
+                <h3>Web Design</h3>
+                <p>
+                  Web design encompasses many different skills and disciplines in the production and maintenance of
+                  websites.
+                </p>
+              </div>
+            </div>
+            <div class="srv">
+              <i class="fas fa-pencil-ruler fa-2x"></i>
+              <div class="text">
+                <h3>Web Development</h3>
+                <p>
+                  Web development is a broad term for the work involved in developing a web site for the Internet or an
+                  intranet.
+                </p>
+              </div>
+            </div>
+            <!-- End Services -->
+          </div>
+          <div class="col">
+            <div class="image image-column">
+              <img decoding="async" src="images/vangokh.jpg" alt="" />
+            </div>
+          </div>
+        </div>
       </div>
-    </form>
+    </div>
+    <!-- End Services -->
+    <!-- Start Portfolio -->
+    <div class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="special-heading">Portfolio</h2>
+        <p>If you do it right, it will last forever.</p>
+        <div class="portfolio-content">
+          <div class="card">
+            <img decoding="async" src="images/vangokh1.jpg" alt="" />
+            <div class="info">
+              <h3>Project Here</h3>
+              <p>My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img decoding="async" src="images/vangokh2.jpg" alt="" />
+            <div class="info">
+              <h3>Project Here</h3>
+              <p>My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img decoding="async" src="images/vangokh3.jpg" alt="" />
+            <div class="info">
+              <h3>Project Here</h3>
+              <p>My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
+            </div>
+          </div>
+        </div>
+      <div class="painting">
+        <h2>Another Painting</h2>
+        <div class="card-image">
+        <img src="https://i.pinimg.com/236x/ef/54/e8/ef54e8423e4cac92973bf61fbb6b7c96.jpg" alt="Another Painting by Vincent van Gogh" >
+        <p>
+          Description: Add detailed description of the painting here.
+        </p>
+      </div>
+    </div>
+    <!-- End Portfolio -->
+    <!-- Start About -->
+    <div class="about">
+      <div class="container">
+        <h2 class="special-heading">About</h2>
+        <p>Less is more work</p>
+        <div class="about-content">
+          <div class="image">
+            <img decoding="async" src="images/vangokh.jpg" alt="" />
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo neque voluptate tempora velit cum non,
+              fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi iusto laudantium!
+            </p>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sapiente. Velit iure exercitationem
+              dolores nesciunt dolore. Eum officiis dolorum hic voluptate quaerat minima, similique inventore esse,
+              alias, sed quo officia?
+            </p>
+          </div>
+      </div>
+      <div class="painting">
+        <h2>Starry Night</h2>
+        <div class="card-image">
+        <img src="https://i.pinimg.com/236x/d4/47/1f/d4471fa4df739581142055e5983ec797.jpg" alt="Starry Night by Vincent van Gogh">
+        <p>
+          Description: Add detailed description of the painting here.
+        </p>
+        </div>
+      </div>
+      <div class="painting">
+        <h2>Starry Night</h2>
+        <div class="card-image">
+        <img src="https://i.pinimg.com/236x/59/01/96/5901967b647c1f9dd8f2fec58ecb22f2.jpg" alt="Starry Night by Vincent van Gogh" >
+        <p>
+          Description: Add detailed description of the painting here.
+        </p>
+      </div>
+      </div>
+      <div class="painting">
+        <h2>Starry Night</h2>
+        <div class="card-image">
+        <img src="https://i.pinimg.com/236x/0e/be/99/0ebe993d9c67b83899b8c5887c7ce7bf.jpg" alt="Starry Night by Vincent van Gogh" >
+        <p>
+          Description: Add detailed description of the painting here.
+        </p>
+      </div>
+      </div>
+      <div class="painting">
+        <h2>Starry Night</h2>
+        <div class="card-image">
+        <img src="https://i.pinimg.com/236x/bb/23/62/bb236241bfdf37e72d414e854df0421e.jpg" alt="Starry Night by Vincent van Gogh" >
+        <p>
+          Description: Add detailed description of the painting here.
+        </p>
+      </div>
+      </div>
+      <div class="painting">
+        <h2>Starry Night</h2>
+        <div class="card-image">
+        <img src="https://i.pinimg.com/236x/f4/7e/10/f47e1016a7baa103ab35d4c0b67b1c3f.jpg" alt="Starry Night by Vincent van Gogh" >
+        <p>
+          Description: Add detailed description of the painting here.
+        </p>
+      </div>
+      </div>
+
+      <div class="painting">
+        <h2>Starry Night</h2>
+        <div class="card-image">
+        <img src="https://i.pinimg.com/564x/6f/03/9e/6f039eb1d93c55385fbec4de054f13aa.jpg" alt="Starry Night by Vincent van Gogh" >
+        <p>
+          Description: Add detailed description of the painting here.
+        </p>
+      </div>
+      </div>
+    </div>
+    <!-- End About -->
+    <!-- Start Contact -->
   </div>
-  <footer>
-    <p>&copy; 2023 SALIHA BRIK. All rights reserved.</p>
-  </footer>
-  <script src="script.js"></script>
-</body>
+  <section>
+    <div class="contact">
+      <div class="container">
+        <h2 class="special-heading">Contact</h2>
+@@ -206,15 +123,18 @@ <h2 class="special-heading">Contact</h2>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+  </section><!-- End Contact -->
+    <!-- Start Footer -->
+    <div class="footer">&copy; 2021 <span>VAN GOKH</span> All Right Reserved</div>
+    <!-- End Footer -->
+    <!-- Start Scroll To Top -->
+    <a href="#home" class="scroll">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- End Scroll To Top -->
+<script src="main.js"></script>
+  </body>
 </html>
 
-  
-  
+
+
+  <section>
+  <footer>
+    <p>&copy; 2023 Van Gogh Gallery. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+  <script src="main.js"></script>
+</section>
+</body>
+
+</html>
