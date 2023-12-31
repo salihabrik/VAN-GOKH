@@ -18,11 +18,11 @@ body, html {
   }
   
   form {
-    background: #f9f9f9;
-    padding: 20px;
+    background: rgba(0,0,0, 0.2);
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
+    
   }
   
   h2 {
